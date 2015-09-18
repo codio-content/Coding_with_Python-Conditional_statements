@@ -1,13 +1,12 @@
 
-var test = require('../test-fw.js');
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir) 
 
-test.tests('/home/codio/workspace/03-ch-if-1/eq.js', [{
-    inputs: [100],
-    outputs: ['Hit'],
-    message: 'Your code does not output "Hit" when 100 is input'
-  }, {
-    inputs: [101],
-    outputs: ['Miss'],
-    message: 'Your code does not output "Miss" when anything but 100 is input'  
-  }                                                          
-]);
+import test
+
+test.test('03-ch-if-1/eq.py', [0], ['Miss'])
+test.test('03-ch-if-1/eq.py', [100], ['Hit'])
+
+print 'Well done'

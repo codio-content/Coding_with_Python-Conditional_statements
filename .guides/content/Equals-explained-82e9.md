@@ -1,14 +1,12 @@
-The 'equals' condition is a little strange in Javascript.
+The 'equals' condition is a little strange in Python.
 
-Take a look at the Flode chart on the left. Below is the Javascript code.
+Take a look at the Flode chart on the left. Below is the Python code.
 
-```javscript
-if ( input0 == 100 ) {
-  output( 'Is 100')
-}
-else {
-  output( 'Is not 100' )
-}
+```python
+if input0 == 100:
+  output('Is 100')
+else:
+  output('Is not 100')
 ```
 
 ## Why ==
