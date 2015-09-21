@@ -23,7 +23,7 @@ Note the `!` character before `hasJumper`. This character reads 'not'.
 We could also have written it like this
 
 ```python
-hasJumper = Talse
+hasJumper = False
 ```
 
 ## Play with the chart

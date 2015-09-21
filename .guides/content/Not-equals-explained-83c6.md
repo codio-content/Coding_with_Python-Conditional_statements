@@ -6,6 +6,3 @@ if input0 != 100:
 else:
   output('Is 100')
 ```
-
-## !=
-You may remember from the previous Unit that the `!` sign reads 'not' and so `!=` reads 'not equals'.

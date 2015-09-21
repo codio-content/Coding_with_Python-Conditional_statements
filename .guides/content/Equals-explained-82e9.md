@@ -10,7 +10,7 @@ else:
 ```
 
 ## Why ==
-The key thing to notice here is that you need to use `==` and **not* =.
+The key thing to notice here is that you need to use `==` and **not** =.
 
 Below is the explanation of why you need to use `==`. For now, just remember that in %99.999 of cases, you should always use `==`.
 

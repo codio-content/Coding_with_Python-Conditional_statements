@@ -5,8 +5,7 @@ To run your code, press this button {Run}(python run-user.py ./03-ch-if-1/fix1.p
 |||guidance
 ## Solution
 
-- the if condition has `=` instead of `==`
-- the second `output()` is wrongly written as `outputs()`
+- the else is missing a `:`
 
 ```python
 str = 'hello'
