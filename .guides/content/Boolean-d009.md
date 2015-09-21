@@ -2,17 +2,17 @@ You will hopefully remember our discussions about Boolean values in Flode. To re
 
 So in a Flode block, you could put either of the following
 
-```javascript
-isCold = true
-isCold = false
+```python
+isCold = True
+isCold = False
 ```
 
 Now look at the Flode chart on the left. Here you can see that we are making a decision based on this variable.
 
 Notice how the decision condition is just `isCold`? We could also write it like this and it would behave exactly the same.
 
-```javascript
-isCold = true
+```python
+isCold = True
 ```
 
 ## Not
@@ -22,8 +22,8 @@ Note the `!` character before `hasJumper`. This character reads 'not'.
 
 We could also have written it like this
 
-```javascript
-hasJumper = false
+```python
+hasJumper = Talse
 ```
 
 ## Play with the chart

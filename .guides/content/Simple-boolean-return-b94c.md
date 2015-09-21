@@ -1,17 +1,15 @@
-{Run code}(node run-user.js ./boolean-ch/simple.js)
+{Run code}(python run-user.py ./boolean-ch/simple.py)
 
 {Check It!|assessment}(test-203651951)
 
 |||guidance
 ## Solution
-```javascript
-input0 = 100
+```python
+input0 = input0(100)
 
-if( input0 >= 100) {
-  output(true)
-}
-else {
-  output(false)
-}
+if input0 >= 100:
+  output(True)
+else:
+  output(False)
 ```
 |||

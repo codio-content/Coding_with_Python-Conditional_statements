@@ -1,21 +1,14 @@
 
-var test = require('../test-fw.js');
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir) 
 
-test.tests('/home/codio/workspace/logical-ch/fast-cars1.js', [{
-    inputs: [71, 0],
-    outputs: ['fast cars'],
-    message: 'Your code does not output "fast cars" when at least one of the cars is travelling more than 70'
-  }, {
-    inputs: [0, 71],
-    outputs: ['fast cars'],
-    message: 'Your code does not output "fast cars" when at least one of the cars is travelling more than 70'
-  }, {
-    inputs: [71, 71],
-    outputs: ['fast cars'],
-    message: 'Your code does not output "fast cars" when at least one of the cars is travelling more than 70'
-  }, {
-    inputs: [70, 70],
-    outputs: ['ok'],
-    message: 'Your code does not output "ok" when the cars are not travelling more than 70.'  
-  }                                                          
-]);
+import test
+
+test.test('logical-ch/fast-cars1.py', [70, 70], ['ok'])
+test.test('logical-ch/fast-cars1.py', [71, 70], ['fast cars'])
+test.test('logical-ch/fast-cars1.py', [70, 71], ['fast cars'])
+test.test('logical-ch/fast-cars1.py', [71, 71], ['fast cars'])
+
+print 'Well done'

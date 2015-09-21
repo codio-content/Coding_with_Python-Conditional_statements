@@ -27,7 +27,7 @@ def printException():
     f = tb.tb_frame
     filename = f.f_code.co_filename
     lineno = tb.tb_lineno
-    print 'Error on line: {}: "{}"'.format(lineno, exc_obj)  
+    print exc_obj  
 
 def test(_file, _inputs, _outputs, _message = 'Not quite right please try again'):
   global outputs

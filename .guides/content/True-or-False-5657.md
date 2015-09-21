@@ -1,17 +1,15 @@
-To run your code, press this button {Run}(node run-user.js ./03-ch-if-1/true-false.js)
+To run your code, press this button {Run}(python run-user.py ./03-ch-if-1/true-false.py)
 
 {Check It!|assessment}(test-2383491788)
 
 |||guidance
 ## Solution
-```javascript
-input0 = 'true'
+```python
+input0 = input0('true')
 
-if (input0 == 'true') {
+if input0 == 'true':
   output(1)
-}
-else {
+else:
   output(0)
-}
 ```
 |||

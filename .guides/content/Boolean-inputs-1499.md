@@ -1,34 +1,22 @@
-{Run code}(node run-user.js ./boolean-ch/bool-input.js)
+{Run code}(python run-user.py ./boolean-ch/bool-input.py)
 
 {Check It!|assessment}(test-2697509729)
 
 |||guidance
 ## Solution
-```javascript
-input0 = false
-input1 = true
+```python
+input0 = input0(False)
+input1 = input1(True)
 
-// Asign inputs to nicer names 
-// to make the code below more readable
-isCold = input0
-isRainy = input1
-
-if ( isCold ) {
-  if ( isRainy ) {
+if input0:
+  if input1:
     output('cold and rainy')
-  }
-  else {
+  else:
     output('cold and dry')
-  }
-}
-else {
-  if ( isRainy ) {
+else:
+  if input1:
     output('warm and rainy')
-  }
-  else {
+  else:
     output('warm and dry')
-  }
-}
-
 ```
 |||

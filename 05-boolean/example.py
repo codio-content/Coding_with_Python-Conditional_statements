@@ -1,17 +1,14 @@
 
-isCold = false
-hasJumper = true
+isCold = False
+hasJumper = True
 
-if ( isCold ) {
-  console.log('Shiver')
-}
-else {
-  console.log('Sweat')
-}
+if isCold:
+  print('Shiver')
+else:
+  print('Sweat')
 
-if ( !hasJumper ) {
-  console.log('Buy a jumper')
-}
-else {
-  console.log('Put it on')
-}
+if not hasJumper:
+  print('Buy a jumper')
+else:
+  print('Put it on')
+  

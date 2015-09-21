@@ -1,17 +1,13 @@
 
-var test = require('../test-fw.js');
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir) 
 
-test.tests('/home/codio/workspace/boolean-ch/simple.js', [{
-    inputs: [100],
-    outputs: [true],
-    message: 'Your code does not output a boolean value of "true" when a number greater than or equal to 100 is input'
-  }, {
-    inputs: [101],
-    outputs: [true],
-    message: 'Your code does not output a boolean value of "true" when a number greater than or equal to 100 is input'
-  }, {
-    inputs: [99],
-    outputs: [false],
-    message: 'Your code does not output a boolean value of "false" when a number less than 100 is input'
-  }                                                         
-]);
+import test
+
+test.test('boolean-ch/simple.py', [100], [True])
+test.test('boolean-ch/simple.py', [101], [True])
+test.test('boolean-ch/simple.py', [99], [False])
+
+print 'Well done'

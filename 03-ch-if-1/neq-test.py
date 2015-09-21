@@ -1,13 +1,12 @@
 
-var test = require('../test-fw.js');
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir) 
 
-test.tests('/home/codio/workspace/03-ch-if-1/neq.js', [{
-    inputs: ['BingoX'],
-    outputs: ['Missed'],
-    message: 'Your code does not output "Missed" when anything but "Bingo" is input'
-  }, {
-    inputs: ['Bingo'],
-    outputs: ['Hit!'],
-    message: 'Your code does not output "Hit!" when "Bingo" is input'  
-  }                                                          
-]);
+import test
+
+test.test('03-ch-if-1/neq.py', ['BingoX'], ['Missed'])
+test.test('03-ch-if-1/neq.py', ['Bingo'], ['Hit!'])
+
+print 'Well done'

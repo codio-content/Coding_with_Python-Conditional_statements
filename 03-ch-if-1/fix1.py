@@ -1,9 +1,7 @@
 
 str = 'hello'
 
-if (str = 'there') {
+if str == 'there':
   output(0)
-}
-else 
-  outputs(1)
-}
+else
+  output(1)

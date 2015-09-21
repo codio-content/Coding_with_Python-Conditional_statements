@@ -1,9 +1,7 @@
 
-input0 = 'BingoX'
+input0 = input0('BingoX')
 
-if (input != 'Bingo') 
-  output( 'Missed' )
-}
-else {
-  output ('Hit!')
-
+if input0 'Bingo'
+  output('Missed')
+else:
+  output('Hit!')

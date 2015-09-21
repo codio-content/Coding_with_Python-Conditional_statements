@@ -1,20 +1,17 @@
-{Run code}(node run-user.js ./logical-ch/categories.js)
+{Run code}(python run-user.py ./logical-ch/categories.py)
 
 {Check It!|assessment}(test-3417544426)
 
 |||guidance
 ## Solution
-```javascript
-input0 = 8
+```python
+input0 = input0(8)
 
-if (input0 >= 6 && input0 <= 11) {
+if input0 >= 6 and input0 <= 11:
   output('primary school')
-}
-else if (input0 >= 12 && input0 <= 18) {
+elif input0 >= 12 and input0 <= 18:
   output ('secondary school')
-}
-else {
+else:
   output('NA')
-}
 ```
 |||

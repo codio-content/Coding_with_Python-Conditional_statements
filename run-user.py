@@ -19,7 +19,7 @@ def printException():
     f = tb.tb_frame
     filename = f.f_code.co_filename
     lineno = tb.tb_lineno
-    print 'Error on line: {}: "{}"'.format(lineno, exc_obj)  
+    print exc_obj  
   
 try:
   execfile(sys.argv[1])

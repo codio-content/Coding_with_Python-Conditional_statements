@@ -1,6 +1,5 @@
-{Run code}(node run-user.js ./05-boolean/example.js)
+{Run code}(python run-user.py ./05-boolean/example.py)
 
 Here's the Flode chart as an *aide memoire*.
 
 ![](05-boolean/example.png)
-
