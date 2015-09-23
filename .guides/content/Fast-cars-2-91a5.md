@@ -1,4 +1,4 @@
-{Run code}(python run-user.py ./logical-ch/fast-cars2.py)
+{Run code}(python3 run-user.py ./logical-ch/fast-cars2.py)
 
 {Check It!|assessment}(test-393850037)
 

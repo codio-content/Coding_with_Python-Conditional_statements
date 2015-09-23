@@ -10,4 +10,4 @@ test.test('boolean-ch/simple.py', [100], [True])
 test.test('boolean-ch/simple.py', [101], [True])
 test.test('boolean-ch/simple.py', [99], [False])
 
-print 'Well done'
+print('Well done')

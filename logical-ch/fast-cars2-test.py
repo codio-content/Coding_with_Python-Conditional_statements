@@ -11,4 +11,4 @@ test.test('logical-ch/fast-cars2.py', [71, 70], ['1 fast car'])
 test.test('logical-ch/fast-cars2.py', [70, 71], ['1 fast car'])
 test.test('logical-ch/fast-cars2.py', [71, 71], ['2 fast cars'])
 
-print 'Well done'
+print('Well done')

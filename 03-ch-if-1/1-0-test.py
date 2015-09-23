@@ -9,4 +9,4 @@ import test
 test.test('03-ch-if-1/1-0.py', [1], ['On'])
 test.test('03-ch-if-1/1-0.py', [0], ['Off'])
 
-print 'Well done'
+print('Well done')

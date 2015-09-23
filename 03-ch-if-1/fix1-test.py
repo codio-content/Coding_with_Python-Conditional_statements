@@ -8,4 +8,4 @@ import test
 
 test.test('03-ch-if-1/fix1.py', ['hello'], [1])
 
-print 'Well done'
+print('Well done')

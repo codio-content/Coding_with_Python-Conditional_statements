@@ -13,4 +13,4 @@ test.test('logical-ch/categories.py', [18], ['secondary school'])
 test.test('logical-ch/categories.py', [5], ['NA'])
 test.test('logical-ch/categories.py', [19], ['NA'])
 
-print 'Well done'
+print('Well done')

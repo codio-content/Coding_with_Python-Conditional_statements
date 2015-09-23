@@ -1,4 +1,4 @@
-To run your code, press this button {Run}(python run-user.py ./03-ch-if-1/true-false.py)
+To run your code, press this button {Run}(python3 run-user.py ./03-ch-if-1/true-false.py)
 
 {Check It!|assessment}(test-2383491788)
 

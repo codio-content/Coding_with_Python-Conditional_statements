@@ -9,4 +9,4 @@ import test
 test.test('03-ch-if-1/neq.py', ['BingoX'], ['Missed'])
 test.test('03-ch-if-1/neq.py', ['Bingo'], ['Hit!'])
 
-print 'Well done'
+print('Well done')

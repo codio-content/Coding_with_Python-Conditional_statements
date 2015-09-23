@@ -9,4 +9,4 @@ import test
 test.test('03-ch-if-1/fix2.py', ['Bingo'], ['Hit!'])
 test.test('03-ch-if-1/fix2.py', ['BingoX'], ['Missed'])
 
-print 'Well done'
+print('Well done')

@@ -5,8 +5,8 @@ Now let's look at another example. We can see a Flode chart on the left which as
 ## else if
 Notice that we are handling the second condition using this statement
 
-```javascript
-else if (input0 > 200) {
+```python
+elif input0 > 200:
 ```
 
 This line will only execute if the first `if` condition was `false`.

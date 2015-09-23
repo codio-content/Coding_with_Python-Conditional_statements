@@ -1,4 +1,4 @@
-{Run code}(python run-user.py ./boolean-ch/bool-input.py)
+{Run code}(python3 run-user.py ./boolean-ch/bool-input.py)
 
 {Check It!|assessment}(test-2697509729)
 

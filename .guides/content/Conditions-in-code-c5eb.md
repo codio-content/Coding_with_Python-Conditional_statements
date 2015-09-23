@@ -1,6 +1,6 @@
 Now let's see how that chart is written in Python, which you can see on the left. You can run and debug your code by clicking the "Run the code" button below.
 
-{Run the code}(python run-user.py 02-if1/if1.py)
+{Run the code}(python3 run-user.py 02-if1/if1.py)
 
 Let's analyse how our code works.
 

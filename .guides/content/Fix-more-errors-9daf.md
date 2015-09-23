@@ -1,4 +1,4 @@
-To run your code, press this button {Run}(python run-user.py ./03-ch-if-1/fix2.py)
+To run your code, press this button {Run}(python3 run-user.py ./03-ch-if-1/fix2.py)
 
 {Check It!|assessment}(test-484914084)
 

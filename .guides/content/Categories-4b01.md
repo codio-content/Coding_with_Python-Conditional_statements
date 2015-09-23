@@ -1,4 +1,4 @@
-{Run code}(python run-user.py ./logical-ch/categories.py)
+{Run code}(python3 run-user.py ./logical-ch/categories.py)
 
 {Check It!|assessment}(test-3417544426)
 
