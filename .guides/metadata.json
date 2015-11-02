@@ -37,7 +37,7 @@
      "action": "close"
     },
     {
-     "path": "experiment.py",
+     "path": "content/experiment.py",
      "panel": 0,
      "action": "open"
     }
@@ -59,7 +59,7 @@
      "action": "close"
     },
     {
-     "path": "02-if1/if1.flode",
+     "path": "content/02-if1/if1.flode",
      "panel": 0,
      "action": "open"
     }
@@ -83,7 +83,7 @@
      "action": "close"
     },
     {
-     "path": "02-if1/if1.py",
+     "path": "content/02-if1/if1.py",
      "panel": 0,
      "action": "open"
     }
@@ -127,7 +127,7 @@
      "action": "close"
     },
     {
-     "path": "02-if1/if-eq.flode",
+     "path": "content/02-if1/if-eq.flode",
      "panel": 0,
      "action": "open"
     }
@@ -149,7 +149,7 @@
      "action": "close"
     },
     {
-     "path": "03-ch-if-1/eq.py",
+     "path": "challenges/eq.py",
      "panel": 0,
      "action": "open"
     }
@@ -171,7 +171,7 @@
      "action": "close"
     },
     {
-     "path": "02-if1/if-neq.flode",
+     "path": "content/02-if1/if-neq.flode",
      "panel": 0,
      "action": "open"
     }
@@ -193,7 +193,7 @@
      "action": "close"
     },
     {
-     "path": "03-ch-if-1/neq.py",
+     "path": "challenges/neq.py",
      "panel": 0,
      "action": "open"
     }
@@ -215,7 +215,7 @@
      "action": "close"
     },
     {
-     "path": "02-if1/if2.flode",
+     "path": "content/02-if1/if2.flode",
      "panel": 0,
      "action": "open"
     }
@@ -237,7 +237,7 @@
      "action": "close"
     },
     {
-     "path": "03-ch-if-1/fix1.py",
+     "path": "challenges/fix1.py",
      "panel": 0,
      "action": "open"
     }
@@ -259,7 +259,7 @@
      "action": "close"
     },
     {
-     "path": "03-ch-if-1/fix2.py",
+     "path": "challenges/fix2.py",
      "panel": 0,
      "action": "open"
     }
@@ -281,7 +281,7 @@
      "action": "close"
     },
     {
-     "path": "03-ch-if-1/1-0.py",
+     "path": "challenges/1-0.py",
      "panel": 0,
      "action": "open"
     }
@@ -303,7 +303,7 @@
      "action": "close"
     },
     {
-     "path": "03-ch-if-1/true-false.py",
+     "path": "challenges/true-false.py",
      "panel": 0,
      "action": "open"
     }
@@ -325,7 +325,7 @@
      "action": "close"
     },
     {
-     "path": "04-logical/example.flode",
+     "path": "content/04-logical/example.flode",
      "panel": 0,
      "action": "open"
     }
@@ -347,7 +347,7 @@
      "action": "close"
     },
     {
-     "path": "04-logical/example.py",
+     "path": "content/04-logical/example.py",
      "panel": 0,
      "action": "open"
     }
@@ -369,7 +369,7 @@
      "action": "close"
     },
     {
-     "path": "logical-ch/fast-cars1.py",
+     "path": "challenges/fast-cars1.py",
      "panel": 0,
      "action": "open"
     }
@@ -391,7 +391,7 @@
      "action": "close"
     },
     {
-     "path": "logical-ch/fast-cars2.py",
+     "path": "challenges/fast-cars2.py",
      "panel": 0,
      "action": "open"
     }
@@ -413,7 +413,7 @@
      "action": "close"
     },
     {
-     "path": "logical-ch/categories.py",
+     "path": "challenges/categories.py",
      "panel": 0,
      "action": "open"
     }
@@ -435,7 +435,7 @@
      "action": "close"
     },
     {
-     "path": "05-boolean/example.flode",
+     "path": "content/05-boolean/example.flode",
      "panel": 0,
      "action": "open"
     }
@@ -459,7 +459,7 @@
      "action": "close"
     },
     {
-     "path": "05-boolean/example.py",
+     "path": "content/05-boolean/example.py",
      "panel": 0,
      "action": "open"
     }
@@ -481,7 +481,7 @@
      "action": "close"
     },
     {
-     "path": "boolean-ch/simple.py",
+     "path": "challenges/simple.py",
      "panel": 0,
      "action": "open"
     }
@@ -503,7 +503,7 @@
      "action": "close"
     },
     {
-     "path": "boolean-ch/bool-input.py",
+     "path": "challenges/bool-input.py",
      "panel": 0,
      "action": "open"
     }

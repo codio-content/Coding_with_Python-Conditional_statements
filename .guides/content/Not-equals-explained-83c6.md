@@ -2,7 +2,7 @@ Take a look at the Flode chart on the left, which shows a 'not equals' condition
 
 ```python
 if N != 100:
-  output('Is not 100')
+  print('Is not 100')
 else:
-  output('Is 100')
+  print('Is 100')
 ```
