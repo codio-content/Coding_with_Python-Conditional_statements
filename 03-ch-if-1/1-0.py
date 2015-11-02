@@ -1,6 +1,9 @@
 
-input0 = input0(1)
+# Get our number from the command line
+N = int(sys.argv[2])
 
-# Write your code below
-
-
+# Your code goes here
+if N == 1:
+  print('On')
+else:
+  print('Off')

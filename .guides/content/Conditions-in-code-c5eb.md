@@ -4,21 +4,24 @@ Now let's see how that chart is written in Python, which you can see on the left
 
 Let's analyse how our code works.
 
-The coding challenges you will face will require your programs to take in various inputs. You can do this by calling the provided input functions `input0`, `input1`, `input2` etc. They are numbered, starting at 0 and go up to the amount required for the challenge. The input functions expect a default value, something that makes sense for debugging your code, but when your code is checked by the assessment system these functions will return random values to make sure your code handles many scenarious.
-
-First of all, we are setting the test data `20` for our input variable `input0`, just like we did in Flode.
+The coding challenges you will face will require your programs to take in various inputs. Inputs will be passed to your program on the command line. Command line arguments are accessed like this:
 
 ```python
-input0 = input0(20)
+argument1 = sys.argv[2] # first argument
+argument2 = sys.argv[3] # second argument
+argument3 = sys.argv[4] # third argument
+
+# sys.argv[0] -> the interpreter's name
+# sys.argv[1] -> the name of the python file
 ```
 
-And here comes the important bit. We are using an `if` statement to check whether `input0` is greater than 100. If it is, then we output the string 'Big'. Otherwise, we output the string 'Small'.
+And here comes the important bit. We are using an `if` statement to check whether `argument1` is greater than 100. If it is, then we output the string 'Big'. Otherwise, we output the string 'Small'.
 
 ```python
-if input0 > 100:
-  output('Big')
+if argument1 > 100:
+  print('Big')
 else:
-  output('Small')
+  print('Small')
 ```
 
 ## Reminder

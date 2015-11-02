@@ -1,16 +1,17 @@
-{Run code}(python3 run-user.py logical-ch/fast-cars1.py)
-
 {Check It!|assessment}(test-2039942507)
 
 |||guidance
 ## Solution
 ```python
-input0 = input0(50)
-input1 = input1(40)
 
-if input0 > 70 or input1 > 70:
-  output('fast cars')
+# Get our car speeds from the command line
+speed1 = sys.argv[2]
+speed2 = sys.argv[3]
+
+# Write your code below
+if speed1 > 70 or speed2 > 70:
+  print('fast cars')
 else:
-  output('ok')
+  print('ok')
 ```
 |||

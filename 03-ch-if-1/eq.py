@@ -1,6 +1,5 @@
 
-input0 = input0(55)
+# Get N from the command line
+N = sys.argv[2]
 
-# Write your code below
-
-
+# Your code goes here

@@ -1,5 +1,5 @@
 
-input0 = input0(8)
+# Get the age from the command line
+age= sys.argv[2]
 
-# Write your code below
-
+# Your code goes here

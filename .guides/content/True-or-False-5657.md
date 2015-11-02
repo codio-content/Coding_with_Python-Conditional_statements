@@ -1,15 +1,15 @@
-To run your code, press this button {Run}(python3 run-user.py ./03-ch-if-1/true-false.py)
-
 {Check It!|assessment}(test-2383491788)
 
 |||guidance
 ## Solution
 ```python
-input0 = input0('true')
+# Get a string from the command line
+string = sys.argv[2]
 
+# Your code goes here
 if input0 == 'true':
-  output(1)
+  print(1)
 else:
-  output(0)
+  print(0)
 ```
 |||

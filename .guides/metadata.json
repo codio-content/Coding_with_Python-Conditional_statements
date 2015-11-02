@@ -18,6 +18,17 @@
    "teacherOnly": false
   },
   {
+   "id": "d41b949c-bd62-54fe-2d3e-7c06fb06a2b2",
+   "title": "Preparation video",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Preparation-video-d41b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "410c3ea6-6139-6dba-1cab-31aadaef7a5b",
    "title": "Experiments",
    "files": [
@@ -508,7 +519,13 @@
   {
    "id": "22e1bf61-cb46-b0ba-3d8-e76fccc0ba2b",
    "title": "All done!",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/All-done--22e1.md",

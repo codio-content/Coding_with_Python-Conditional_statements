@@ -1,5 +1,3 @@
-To run your code, press this button {Run}(python3 run-user.py ./03-ch-if-1/fix2.py)
-
 {Check It!|assessment}(test-484914084)
 
 |||guidance
@@ -9,11 +7,13 @@ To run your code, press this button {Run}(python3 run-user.py ./03-ch-if-1/fix2.
 - the `if` line is missing the `:`
 
 ```python
-input0 = input0('BingoX')
+# Get our input from the command line
+string = sys.argv[2]
 
-if input0 != 'Bingo':
-  output('Missed')
+# Your code goes here
+if string != 'Bingo':
+  print('Missed')
 else:
-  output('Hit!')
+  print('Hit!')
 ```
 |||

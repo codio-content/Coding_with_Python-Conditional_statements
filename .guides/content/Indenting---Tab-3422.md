@@ -5,20 +5,20 @@ In languages like Python, indentation is *required*. If you don't indent you cod
 
 In some languages like Javascript, your code will run fine without indentation but it will look messy if you don't.
 
-The Python code below will not run as nohting is contained in the `if` and `else` code blocks.
+The Python code below will not run as, due to the lack of indentation, Python does not recognise anything as being contained in the `if` and `else` code blocks.
 
 ```python
-if input0 > 100:
-output('Big')
+if number > 100:
+print('Big')
 else:
-output('Small')
+print('Small')
 ```
 
 ## What code should you indent?
 You should indent all code within a code block. Code blocks start with the ':'.
 
 ```python
-if input0 > 100:
+if number > 100:
   code here
   and here
   and here
@@ -33,7 +33,7 @@ while counter <= 9:
   counter = counter + 1
 ```
 
-## Tab key
+## Tab key NOT spaces
 One thing that beginners do when indenting their code is to press the space bar several times. **Don't do this**.
 
 Use the tab key instead. This ensures that indentations are consistent.

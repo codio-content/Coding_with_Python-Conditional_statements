@@ -1,6 +1,5 @@
 
-input0 = input0('BingoX')
+# Get our string from the command line
+string = sys.argv[2]
 
-# Write your code below
-
-
+# Your code goes here

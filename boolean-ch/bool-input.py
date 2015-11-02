@@ -1,7 +1,6 @@
 
-input0 = input0(False)
-input1 = input1(True)
+# Get our boolean values from the command line
+isCold= sys.argv[2]
+isRainy= sys.argv[3]
 
-# Write your code below
-
-
+# Your code goes here

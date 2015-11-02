@@ -1,15 +1,15 @@
-{Run code}(python3 run-user.py ./boolean-ch/simple.py)
-
 {Check It!|assessment}(test-203651951)
 
 |||guidance
 ## Solution
 ```python
-input0 = input0(100)
+# Get N from the command line
+N = int(sys.argv[2])
 
-if input0 >= 100:
-  output(True)
+# Your code goes here
+if N >= 100:
+  print(True)
 else:
-  output(False)
+  print(False)
 ```
 |||

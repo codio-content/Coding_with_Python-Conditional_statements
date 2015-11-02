@@ -1,7 +1,9 @@
+  
+# Get our input from the command line
+string = sys.argv[2]
 
-input0 = input0('BingoX')
-
-if input0 'Bingo'
-  output('Missed')
+# Your code goes here
+if string 'Bingo'
+  print('Missed')
 else:
-  output('Hit!')
+  print('Hit!')

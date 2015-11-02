@@ -1,7 +1,6 @@
 
-input0 = input0(50)
-input1 = input1(40)
+# Get our car speeds from the command line
+speed1 = sys.argv[2]
+speed2 = sys.argv[3]
 
 # Write your code below
-
-

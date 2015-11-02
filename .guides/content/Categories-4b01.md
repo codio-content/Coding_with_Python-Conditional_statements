@@ -1,17 +1,17 @@
-{Run code}(python3 run-user.py ./logical-ch/categories.py)
-
 {Check It!|assessment}(test-3417544426)
 
 |||guidance
 ## Solution
 ```python
-input0 = input0(8)
+# Get the age from the command line
+age= sys.argv[2]
 
-if input0 >= 6 and input0 <= 11:
-  output('primary school')
-elif input0 >= 12 and input0 <= 18:
-  output ('secondary school')
+# Your code goes here
+if age >= 6 and age <= 11:
+  print('primary school')
+elif age >= 12 and age <= 18:
+  print('secondary school')
 else:
-  output('NA')
+  print('NA')
 ```
 |||

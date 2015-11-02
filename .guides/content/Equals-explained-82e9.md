@@ -1,17 +1,19 @@
-The 'equals' condition is a little strange in Python.
+The "equals" condition is typical for programming languages. Instead of using the more normal `=` to test for equality between numbers, the Python equality operator is `==` where `=` is the *assignment operator*.
 
 Take a look at the Flode chart on the left. Below is the Python code.
 
 ```python
-if input0 == 100:
-  output('Is 100')
+if number == 100:
+  print('Is 100')
 else:
-  output('Is not 100')
+  print('Is not 100')
 ```
 
-## Why ==
-The key thing to notice here is that you need to use `==` and **not** =.
+Consider this Pythong code below and make you understand it.
 
-Below is the explanation of why you need to use `==`. For now, just remember that in 99.999% of cases, you should always use `==`.
+```python
+number = 10  # assign 10 to the variable number
+number == 10 # test to see if number is equal to 10
+```
 
-The reason for this is that `=` is the *assignment operator*. This means it would set `input0` to be 100 and would then result in the condition being true, regardless of what the value of `100` was beforehand.
+Accidentally confusing `=` and `==` is a common beginner mistake. So watch your equals signs carefully. 

@@ -1,22 +1,23 @@
-{Run code}(python3 run-user.py ./boolean-ch/bool-input.py)
-
 {Check It!|assessment}(test-2697509729)
 
 |||guidance
 ## Solution
 ```python
-input0 = input0(False)
-input1 = input1(True)
+# Get our boolean values from the command line
+isCold= sys.argv[2]
+isRainy= sys.argv[3]
 
-if input0:
-  if input1:
-    output('cold and rainy')
+# Your code goes here
+
+if isCold:                   # is it cold?
+  if isRainy:                # is it rainy?
+    print('cold and rainy')
+  else:                      # cold, but not rainy
+    print('cold and dry')
+else:                        # not cold, so must be warm
+  if isRainy:                # is it rainy?
+    print('warm and rainy')
   else:
-    output('cold and dry')
-else:
-  if input1:
-    output('warm and rainy')
-  else:
-    output('warm and dry')
+    print('warm and dry')
 ```
 |||
