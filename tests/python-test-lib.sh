@@ -37,7 +37,7 @@ function run_python_test {
     LAST_SUCCESS="${LAST_SUCCESS}<br/><small><b>Your Output: </b></small>${ACTUAL_OUTPUT}"
     return 0
   fi
-  echo "<small><b>Program Failed for Input: </b></small>${ARG}"
+  echo "<small><b>Program Failed for Input: </b></small>${ARGS}"
   echo "<small><b>Expected Output:</b> </small>${EXPECTED_OUTPUT}"
   echo "<small><b>Your Program Output:</b> </small>${ACTUAL_OUTPUT}"
   echo "<br/>${MESSAGE_ON_ERROR}"
