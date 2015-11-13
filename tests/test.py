@@ -62,6 +62,7 @@ def test(_file, _inputs, _outputs, _message = 'Not quite right please try again'
     #print("<hr/>")
     
     outputText= '<div class="challenge-result">'
+    outputText += '<br/><b>WRONG SCRIPT</b><hr/>'
     outputText += '<br/><b>Challenge Results</b><hr/>'
     outputText += '<small><b>Program Input: </b></small>' 
     outputText += '<br/>'

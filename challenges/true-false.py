@@ -1,5 +1,6 @@
 
 # Get a string from the command line
-string = sys.argv[2]
+import sys
+string = sys.argv[1]
 
 # Your code goes here

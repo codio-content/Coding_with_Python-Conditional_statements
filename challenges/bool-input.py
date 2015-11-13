@@ -1,6 +1,7 @@
 
 # Get our boolean values from the command line
-isCold= sys.argv[2]
-isRainy= sys.argv[3]
+import sys
+isCold= sys.argv[1]
+isRainy= sys.argv[2]
 
 # Your code goes here
