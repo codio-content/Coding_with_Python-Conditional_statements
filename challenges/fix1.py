@@ -1,6 +1,7 @@
 
 # Get our input from the command line
-str = sys.argv[2]
+import sys
+str = sys.argv[1]
 
 if str = 'there':
   print(0)

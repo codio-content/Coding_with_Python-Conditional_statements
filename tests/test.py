@@ -52,6 +52,31 @@ def test(_file, _inputs, _outputs, _message = 'Not quite right please try again'
       outputs.append(last_line)
 
     #print(outputs)
+    
+    #
+    # Display output for student
+    # 
+    # <br/><hr/><h3>Challenge Feedback</h3>
+    #print('<div class="challenge-result">')
+    #print('<br/><hr/><h3>Challenge Results</h3>')
+    #print("<hr/>")
+    
+    outputText= '<div class="challenge-result">'
+    outputText += '<br/><b>Challenge Results</b><hr/>'
+    outputText += '<small><b>Program Input: </b></small>' 
+    outputText += '<br/>'
+    outputText += str(inputs)
+    outputText += '<br/>'
+    outputText += '<small><b>Your Output: </b></small>'
+    outputText += '<br/>'
+    #outputText += '<hr/>'
+    outputText += fake_stdout.getvalue()
+    #outputText += '<hr/>'
+    
+    outputText += '<small><b>Feedback: </b></small>'
+    outputText += '</div><br/>'
+    
+    print(outputText)
 
     if len(outputs) != len(_outputs):
       print('Your program is not outputting the expected number of outputs')
