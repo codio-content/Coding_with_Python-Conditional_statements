@@ -4,7 +4,8 @@
 ## Solution
 ```python
 # Get the age from the command line
-age= sys.argv[2]
+import sys
+age= int(sys.argv[1])
 
 # Your code goes here
 if age >= 6 and age <= 11:

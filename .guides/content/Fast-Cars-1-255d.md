@@ -5,8 +5,9 @@
 ```python
 
 # Get our car speeds from the command line
-speed1 = sys.argv[2]
-speed2 = sys.argv[3]
+import sys
+speed1 = int(sys.argv[1])
+speed2 = int(sys.argv[2])
 
 # Write your code below
 if speed1 > 70 or speed2 > 70:

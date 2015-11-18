@@ -7,7 +7,7 @@
 string = sys.argv[2]
 
 # Your code goes here
-if input0 == 'true':
+if string == 'true':
   print(1)
 else:
   print(0)
