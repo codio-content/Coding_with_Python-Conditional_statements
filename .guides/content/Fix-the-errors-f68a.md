@@ -7,7 +7,8 @@
 - the equals comparison is a `=` instead of `==`
 
 ```python
-str = 'hello'
+import sys
+str = sys.argv[1]
 
 if str == 'there':
   print(0)

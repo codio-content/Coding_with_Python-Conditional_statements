@@ -1,7 +1,7 @@
 Now let's analyse how the `if` statement works. Here's the full code again.
 
 ```python
-if input0 > 100:
+if number > 100:
   output('Big')
 else:
   output('Small')
@@ -11,7 +11,7 @@ Let's start with the first line.
 
 ## The if statement
 ```python
-if input0 > 100:
+if number > 100:
 ```
 
 1. You start your line with `if`.

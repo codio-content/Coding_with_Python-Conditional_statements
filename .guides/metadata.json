@@ -110,7 +110,13 @@
   {
    "id": "3422eb7a-98c3-3692-88c3-24cd3b66654",
    "title": "Indenting & Tab",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Indenting---Tab-3422.md",
@@ -132,7 +138,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Equals-explained-82e9.md",

@@ -1,17 +1,5 @@
 Take a look at the Flode chart on the left. This contains 2 conditional blocks where you can see `and` and `or` being used.
 
-Below is the equivalent Python code. Try different values for `number`.
+Alter the Flode chart input value and see the different paths that the execution takes. This will help you to understand how logical operators work.
 
-```python
-number = -10  # Change the value of number and step through 
-
-if number >= 10 and number < 100: # Example of 'and'
-  print('2 digit number')
-else:
-  print('1 digit number')
-
-if number < 0 and number >= 1000: # Example of 'or'
-  print('Invalid number')
-else:
-  print('OK')
-```
+Next we will look at the equivalent code in Python.

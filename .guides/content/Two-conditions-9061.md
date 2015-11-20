@@ -2,7 +2,7 @@ Now let's look at another example. We can see a Flode chart on the left which as
 
 > If the number is less than or equal to 100, output 'Small’. If the number is larger than 100 then if it is also larger than 200, output ‘Huge’ otherwise output 'Big’.
 
-## else if
+## elif
 Notice that we are handling the second condition using this statement
 
 ```python

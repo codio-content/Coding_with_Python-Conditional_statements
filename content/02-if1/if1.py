@@ -6,7 +6,8 @@
 # not as a string.
 # 
 import sys
-number = int(sys.argv[1])
+argument1= sys.argv[1]   # argument will always be strings
+number = int(argument1)  # to use as an integer
 
 # 
 # Check to see if our number is larger than 100

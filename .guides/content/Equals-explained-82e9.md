@@ -9,7 +9,7 @@ else:
   print('Is not 100')
 ```
 
-Consider this Python code below and make you understand it.
+Consider this Python code below and make sure you understand it.
 
 ```python
 number = 10  # assign 10 to the variable number
