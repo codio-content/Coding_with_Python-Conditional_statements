@@ -7,17 +7,20 @@ Let's analyze how our code works.
 The coding challenges you will face will require your programs to take in various inputs. Inputs will be passed to your program on the command line. Command line arguments are accessed like this:
 
 ```python
-argument1 = sys.argv[1] # first argument
-argument2 = sys.argv[2] # second argument
-argument3 = sys.argv[3] # third argument
-
-# sys.argv[0] -> the interpreter's name
+9   argument1= sys.argv[1]   # argument will always be strings
 ```
+
+Since all command line arguments will be strings, we have to convert them into the type that we want to use them as, in this case, an integer.
+
+```python
+10  number = int(argument1)  # to use as an integer
+```
+
 
 And here comes the important bit. We are using an `if` statement to check whether `argument1` is greater than 100. If it is, then we output the string 'Big'. Otherwise, we output the string 'Small'.
 
 ```python
-if argument1 > 100:
+if number > 100:
   print('Big')
 else:
   print('Small')
