@@ -2,6 +2,6 @@ Run the code sample code on the left, which is equivalent to the Flode chart bel
 
 {Run code}(python3 content/05-boolean/example.py)
 
-Here's the Flode chart as an *aide memoire*.
+To remind you, here is the chart in Flode.
 
 ![](content/05-boolean/example.png)

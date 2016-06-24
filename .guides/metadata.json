@@ -98,7 +98,7 @@
   },
   {
    "id": "3422eb7a-98c3-3692-88c3-24cd3b66654",
-   "title": "Indenting & Tab",
+   "title": "Indenting & tab",
    "files": [
     {
      "path": "#tabs",
@@ -108,7 +108,7 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Indenting---Tab-3422.md",
+   "content-file": ".guides/content/Indenting---tab-3422.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -291,7 +291,7 @@
   },
   {
    "id": "5657fe7e-e5e4-65fb-b319-e6cc24edeb55",
-   "title": "True or False",
+   "title": "True or false",
    "files": [
     {
      "path": "#tabs",
@@ -306,7 +306,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/True-or-False-5657.md",
+   "content-file": ".guides/content/True-or-false-5657.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -357,7 +357,7 @@
   },
   {
    "id": "255db8aa-df53-da77-a692-bad6f9c7f0e8",
-   "title": "Fast Cars 1",
+   "title": "Fast cars 1",
    "files": [
     {
      "path": "#tabs",

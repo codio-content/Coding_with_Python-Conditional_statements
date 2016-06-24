@@ -1,3 +1,5 @@
-The code file on the left is there for you to play with. Feel free to come back to this page and play with it at any time.
+This window is provided for you to try out any code you develop. Use it to experiment and practise.
+
+There is some starter code provided for you.
 
 {Run code}(python3 content/experiment.py)

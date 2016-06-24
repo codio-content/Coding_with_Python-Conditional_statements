@@ -1,15 +1,15 @@
-Now let's look at another example. We can see a Flode chart on the left which asks this ...
+Now let's look at another example. Look at the Flode chart on the left. Step through the chart and you will see it works as follows:
 
 > If the number is less than or equal to 100, output 'Small’. If the number is larger than 100 then if it is also larger than 200, output ‘Huge’ otherwise output 'Big’.
 
 ## elif
-Notice that we are handling the second condition using this statement
+Have a look at the second condition. It uses the following statement:
 
 ```python
 elif input0 > 200:
 ```
 
-This line will only execute if the first `if` condition was `false`.
+Using `elif` means that this line will only execute if the first `if` condition was `false`.
 
 Here is the general way Python evaluates its `if` statements.
 

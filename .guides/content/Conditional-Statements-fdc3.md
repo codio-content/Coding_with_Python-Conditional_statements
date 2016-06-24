@@ -1,6 +1,6 @@
-This Unit covers the concept of conditional statements in Python.
+This unit is about using conditional statements in Python.
 
-Here's a good example.
+Here is a good example:
 
 ```python
 if number >= 10 and number < 100: # if number is two digits
