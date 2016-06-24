@@ -1,6 +1,6 @@
 **If, elif, else etc.**
 
-- The public GitHub repository for this unit can be found at [https://github.com/codio-content/Coding_with_Python-Conditions](https://github.com/codio-content/Coding_with_Python-Conditions).
+- The public GitHub repository for this unit can be found at [https://github.com/codio-content/Coding_with_Python-Conditional_statements](https://github.com/codio-content/Coding_with_Python-Conditional_statements).
 
 - For more information on other units and modules in the An Introduction to Programming course go to [Course-:-Introduction-to-Programming](https://github.com/codio-content/Information/wiki/Course-:-Introduction-to-Programming)
 
